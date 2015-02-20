@@ -143,7 +143,7 @@ TO FIELD.FILL.1-sim/checklist/to.~.0
 --GLARESHIELD BARO REF
 BARO REF BOTH SET.CHECK
 !!.set the QNH/QFE on the EFIS and on the ISIS
-!!.check barometer settings and altitude indications on
+!!.check barometer settings and altitude indications on 
 !!.PFD and ISIS
 !!.the maximum difference is: 20ft
 !!.check stby AH barometer setting and altitude
