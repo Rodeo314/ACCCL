@@ -61,7 +61,7 @@ RESULT.CHECK
 !!.bottom to top
 EMER CALLS.OFF.1-sim/377/button.=.0
 EVAC COMMAND.GUARDED.1-sim/30/cover.=.0
-CAPT&PURS.CAMT&PURS.1-sim/1/switch.=.1
+CAPT&PURS.CAPT&PURS.1-sim/1/switch.=.1
 OXYGEN CREW.ON.1-sim/38/button.=.1
 PRIM & SEC 1 FLT COMPs.ON.1-sim/29/button.=.0.and.1-sim/30/button.=.0
 PRIM & SEC 3 FLT COMPs.ON.1-sim/31/button.=.0.and.1-sim/32/button.=.0
@@ -85,7 +85,7 @@ AIR FLOW SELECTOR.NORM.1-sim/air/airFlowSwitch.=.1
 TEMP SELECTORS AS REQUIRED.SELECT
 !!. select comfortable temperature
 ECAM ELEC DC PAGE.CALL.1-sim/ind/ecamMode.=.7
-ALL BATTERIES CURRECT BELOW 60A.CHECK
+ALL BATTERIES CURRENT BELOW 60A.CHECK
 APU GEN PB.ON.1-sim/101/button.=.1
 APU GEN FAULT LT OFF.CHECK
 GENs 1.ON.1-sim/96/button.=.1.and.1-sim/99/button.=.1
@@ -110,8 +110,8 @@ A-SKID.ON.1-sim/37/switch.=.1
 STBY INSTRUMENTS ON.CHECK
 --PEDESTAL
 PARK BRK.ON.1-sim/parckBrake.=.0
-L/G/GRAVTY EXTN.OFF.1-sim/brg/emer.=.1
-L/G/GRAVTY EXTN.GUARDED.1-sim/36/cover.=.0
+L/G/GRAVITY EXTN.OFF.1-sim/brg/emer.=.1
+L/G/GRAVITY EXTN.GUARDED.1-sim/36/cover.=.0
 THRUST LEVERS.IDLE.1-sim/R/throttle.=.0.and.1-sim/L/throttle.=.0
 REVERSE LEVERS.STOWED.1-sim/L/reverser.=.0.and.1-sim/R/reverser.=.0
 ENG MASTER SWITCHES.OFF.1-sim/eng/cutoff/L/switch.=.1.and.1-sim/eng/cutoff/R/switch.=.1
@@ -122,7 +122,7 @@ SURV SYS 2 PBs.ON.1-sim/218/button.=.1.and.1-sim/220/button.=.1
 SURV PAGE.SELECT.1-sim/mfd/guage.=.3
 CONTROLS PAGE.SELECT.1-sim/mfd/page.=.1
 !!.press DEFAULT SETTINGS for quick setup
-XPRD.AUTO.1-sim/surv/XPDRmode.=.3
+XPDR.AUTO.1-sim/surv/XPDRmode.=.3
 TCAS MODE TA/RA&NORM.SELECT.1-sim/surv/TCASmode.=.1.and.1-sim/surv/TCASdisplay.=.1
 WXR AUTO.SELECT.1-sim/surv/WXRelev.=.1
 WXR WX AUTO.SELECT.1-sim/surv/WXRon.=.1
@@ -166,7 +166,7 @@ ZFW/ZFCG IN FMS.CHECK
 !!.compare the ZFW/ZFCG of the final loadsheet
 !!.with data entered into FMS
 ECAM CWCG.CHECK
-!!.check within oparating limits
+!!.check within operating limits
 SEATS, SEAT BELT, PEDALS.ADJUST
 EXT PWR.OFF.1-sim/97/button.=.0.and.1-sim/104/button.=.0
 --AT START CLEARANCE
@@ -225,7 +225,7 @@ AFEX.ON.1-sim/21/button.=.1
 DER.ON.1-sim/22/button.=.1
 --PRESSURIZATION
 CABIN ALT MODE.AUTO.1-sim/122/button.=.1
-CABIN VS MODE.AUTO.1-sim/123/button.=.1
+CABIN V/S MODE.AUTO.1-sim/123/button.=.1
 ---TAXI
 --TAXI
 NOSE LIGHTS.TAXI.1-sim/11/switch.=.1
@@ -244,7 +244,7 @@ TABLE.STOWED.1-sim/computer.=.0
 TCAS MODE TA/RA.SET.1-sim/surv/TCASmode.=.1
 ---TAKEOFF
 --TAKEOFF
-CHRONO.START.1-sim/ind/chronoButton.=.1
+CHRONO.START.AirbusFBW/ChronoTimeND1.>.0.or.AirbusFBW/ChronoTimeND2.>.0
 THRUST LEVER FLEX/TOGA.SET.1-sim/R/throttle.>.0.and.1-sim/L/throttle.>.0
 TAKEOFF THRUST.CHECK
 V1 MONITOR.CHECK
@@ -400,7 +400,7 @@ FLIGHT PARAMETERS.CHECK
 --VISUAL APPROACH
 ?.perform the approach on a nominal 3 deg glideslope 
 ?.using visual references
-?.the approach should be stabilised by 500ft above airfield
+?.the approach should be stabilized by 500ft above airfield
 ?.elevations on the correct approach path, in the landing 
 ?.configuration at VAPP
 ACTIVATE APPR ON FMS.CHECK

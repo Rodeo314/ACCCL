@@ -2,11 +2,11 @@
 --CHECKLIST USAGE
 ?.- The checklist will automatically monitor your actions 
 ?.use the standard scroll keys and select key for checklist 
-?.manipulatoin or use the scroll and V button on the 
+?.manipulation or use the scroll and V button on the
 ?.pedestal
-?.- The check items marked by the grey squere on the  
+?.- The check items marked by the gray square on the
 ?.left require checking - select key on the item to check 
 ?.it
 ?.- Any item can be overriden by selecting it 
-?.- The whole list can be overriden by selecting COMLT a
+?.- The whole list can be overriden by selecting COMPLT a
 ?.list can be reset by selecting RESET
