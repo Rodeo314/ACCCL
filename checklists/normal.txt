@@ -244,7 +244,7 @@ TABLE.STOWED.1-sim/computer.=.0
 TCAS MODE TA/RA.SET.1-sim/surv/TCASmode.=.1
 ---TAKEOFF
 --TAKEOFF
-CHRONO.START.1-sim/ind/chronoButton.=.1
+CHRONO.START.AirbusFBW/ChronoTimeND1.>.0.or.AirbusFBW/ChronoTimeND2.>.0
 THRUST LEVER FLEX/TOGA.SET.1-sim/R/throttle.>.0.and.1-sim/L/throttle.>.0
 TAKEOFF THRUST.CHECK
 V1 MONITOR.CHECK
